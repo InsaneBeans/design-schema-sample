@@ -6,25 +6,25 @@ package com.huyikang.design.model.factory;
  * @author InsaneBeans
  *
  */
-public class Farmer implements Person {
+public class Farmer implements Human {
     
     private String defaultAction;
     
     private String profession;
     
     public Farmer() {
-        this.profession = "农民";
-        this.defaultAction = "种庄稼";
+        this.profession = "Farmer";
+        this.defaultAction = "Farming";
     }
 
     @Override
     public void read() {
-        System.out.println("farmer cannot read~");
+        System.out.println("The farmer cannot read~");
     }
 
     @Override
     public void eat() {
-        System.out.println("farmer is eating~");
+        System.out.println("The farmer is eating~");
     }
 
     @Override

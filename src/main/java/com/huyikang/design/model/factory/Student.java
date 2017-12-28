@@ -6,7 +6,7 @@ package com.huyikang.design.model.factory;
  * @author InsaneBeans
  *
  */
-public class Student implements Person{
+public class Student implements Human{
     
     private String stuId;
     private String stuName;
@@ -42,22 +42,22 @@ public class Student implements Person{
 
     @Override
     public void read() {
-        System.out.println("学生正在读书");
+        System.out.println("The student is reading~");
     }
 
     @Override
     public void eat() {
-        System.out.println("学生正在吃饭");
+        System.out.println("The student is eating!");
     }
 
     @Override
     public String getProfession() {
-        return "学生";
+        return "Student";
     }
 
     @Override
     public String getDefaultAction() {
-        return "读书";
+        return "Reading";
     }
     
 }

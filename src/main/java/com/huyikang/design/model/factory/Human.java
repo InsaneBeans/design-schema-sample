@@ -6,7 +6,7 @@ package com.huyikang.design.model.factory;
  * @author InsaneBeans
  *
  */
-public interface Person {
+public interface Human {
     
     /**
      * 读书

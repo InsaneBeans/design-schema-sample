@@ -1,7 +1,7 @@
 package com.huyikang.design.pattern.factory;
 
 import com.huyikang.design.model.factory.Farmer;
-import com.huyikang.design.model.factory.Person;
+import com.huyikang.design.model.factory.Human;
 import com.huyikang.design.model.factory.Student;
 import com.huyikang.design.model.factory.Teacher;
 
@@ -11,9 +11,9 @@ import com.huyikang.design.model.factory.Teacher;
  * @author InsaneBeans
  * 
  */
-public class PersonFactory {
+public class HumanFactory {
     
-    public Person createPerson(String profession) {
+    public Human getHuman(String profession) {
         switch (profession) {
         case "farmer":
             return new Farmer();
