@@ -1,4 +1,6 @@
-package com.huyikang.design.model.abstractfactory;
+package com.huyikang.design.model.abstractfactory.shape;
+
+import com.huyikang.design.model.abstractfactory.Shape;
 
 public class Rectangle implements Shape {
 

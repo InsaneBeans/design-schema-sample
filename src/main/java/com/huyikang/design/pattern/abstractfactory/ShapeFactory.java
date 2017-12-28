@@ -1,12 +1,19 @@
-package com.huyikang.design.pattern.factory;
+package com.huyikang.design.pattern.abstractfactory;
 
+import com.huyikang.design.model.abstractfactory.Color;
 import com.huyikang.design.model.abstractfactory.Shape;
 import com.huyikang.design.model.abstractfactory.shape.Circle;
 import com.huyikang.design.model.abstractfactory.shape.Rectangle;
 import com.huyikang.design.model.abstractfactory.shape.Square;
 
-public class ShapeFactory {
-    
+public class ShapeFactory extends AbstractFactory {
+
+    @Override
+    public Color getColor(String color) {
+        return null;
+    }
+
+    @Override
     public Shape getShape(String shapeType) {
         if(shapeType == null){
             return null;
